@@ -1,0 +1,41 @@
+---
+title: DID Authentication Integrated with PassKeys
+date: 2023-04-23
+image: changelogs/venus-update
+description: Sonr Changelog April 2023
+---
+
+In this release, we have introduced a new mint mechanism that mints tokens only during successful MPC wallet generation events. This approach incentivizes validator nodes in the Sonr system to actively participate in account generation. Validators are required to generate a minimum of 20 accounts every 100 blocks to prevent their stake from being slashed. Clients requesting new account creation receive credential creation options from the public REST API for their service origin and claim preconfigured wallet addresses. Additionally, we have implemented numerous bug fixes and improvements to enhance the overall user experience and security of the Sonr platform. Read on to discover the complete list of updates.
+
+## **Features**
+
+### **Multiple Algorithm Support**
+
+- Added support for multiple algorithms for registering credentials (**[credential.go](https://github.com/sonrhq/core/blob/6e6dfc5886c8d414ad1386653bf85b45504de549/x/service/types/credential.go)**, **[params.go](https://github.com/sonrhq/core/blob/6e6dfc5886c8d414ad1386653bf85b45504de549/x/service/types/params.go)**)
+- Added support for EdDSA algorithm (**[params.go](https://github.com/sonrhq/core/blob/6e6dfc5886c8d414ad1386653bf85b45504de549/x/service/types/params.go)**)
+
+### **New Endpoints and Functions**
+
+- Added a `GetOldestUnclaimed` and `ListAllUnclaimed` endpoint (**[did.go](https://github.com/sonrhq/core/blob/43d6c85d5b2dc5557af19dfdd6b3b72c3b9c0872/internal/protocol/handler/did.go)**)
+- Added a `GetCredentialCreationOptions` function (**[record.go](https://github.com/sonrhq/core/blob/43d6c85d5b2dc5557af19dfdd6b3b72c3b9c0872/x/service/types/record.go)**)
+- Added a `GetServiceAssertion` endpoint (**[routes.go](https://github.com/sonrhq/core/blob/43d6c85d5b2dc5557af19dfdd6b3b72c3b9c0872/internal/protocol/routes/routes.go)**)
+
+### **Wallet and Identity Improvements**
+
+- Changed the parameters for `NewWebauthnCreationOptions` to include an alias instead of a UUID (**[params.go](https://github.com/sonrhq/core/blob/6e6dfc5886c8d414ad1386653bf85b45504de549/x/service/types/params.go)**)
+- Added a `webAuthentication` struct (**[session.go](https://github.com/sonrhq/core/blob/43d6c85d5b2dc5557af19dfdd6b3b72c3b9c0872/internal/protocol/middleware/session.go)**)
+- Added an Assign function to the WalletClaims interface (**[claims.go](https://github.com/sonrhq/core/blob/7e82df18c5527ddfd0a9c2bef9d62b6bee8586e2/x/identity/internal/controller/claims.go)**)
+- Added `AlsoKnownAs` field to DID document (**[claims.go](https://github.com/sonrhq/core/blob/6879c33afc5d46ce15662cdda3d78b9e1eb8f9e8/x/identity/internal/controller/claims.go)**)
+
+### **Mint Mechanism and Coin Distribution**
+
+- Added a call to MintCoins in the EndBlock function of AppModule
+
+## Bug Fixes
+
+### Status Code and Error Message Updates
+
+- Changed status code from 500 to 404 if unclaimed wallet is not found and added more information to the error message (service.go)
+- Changed status code from 403 to 403 and added more information to the error message if attestion verification fails (service.go)
+- Changed status code from 500 to 500 and added more information to the error message if controller creation fails (service.go)
+- Changed status code from 500 to 500 and added more information to the error message if JWT creation fails (service.go)

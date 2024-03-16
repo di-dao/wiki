@@ -1,0 +1,48 @@
+---
+title: Get Service Record by Origin
+description: Re-usable components built using Radix UI and Tailwind CSS.
+collection: Services
+---
+
+This endpoint allows you to retrieve a paginated list of all DID Documents. By default, a maximum of ten DID Documents are shown per page.
+
+<Row>
+  <Col sticky>
+
+<CodeGroup title="Request" tag="GET" label="/service">
+
+```bash
+curl -G https://core.build/service
+```
+
+```js
+import ApiClient from '@sonrhq/ts-client'
+
+const client = new SonrClient(origin)
+
+await client.service.list()
+```
+
+</CodeGroup>
+
+```json
+{
+	"services": [{
+		"id": "localhost",
+		"controller": "did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh",
+		"type": "LinkedDomains",
+		"origin": "localhost",
+		"name": "Test"
+	}, {
+		"id": "sonr.id",
+		"controller": "did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh",
+		"type": "LinkedDomains",
+		"origin": "sonr.id",
+		"name": "Sonr ID"
+	}],
+	"success": true
+}
+```
+
+</Col>
+</Row>

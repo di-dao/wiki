@@ -1,0 +1,37 @@
+---
+title: Authentication API
+description: Re-usable components built using Radix UI and Tailwind CSS.
+collection: Services
+api: true
+---
+
+Services are essential components in the Sonr peer-to-peer identity and asset management system. They store information about various services provided by developer applications. On this page, we'll dive into the different Service Record endpoints you can use to manage Service Records programmatically. We'll look at how to query, create, update, and delete Service Records.
+
+## The Service Record
+The Service Record model contains all the information about the services provided by developer applications, including the controller, type, origin, and associated endpoints.
+
+### Properties
+
+<Properties>
+  <Property name="id" type="string">
+    Unique identifier for the service record.
+  </Property>
+  <Property name="controller" type="string">
+    The entity controlling the service.
+  </Property>
+  <Property name="type" type="string">
+    The type of the service.
+  </Property>
+  <Property name="origin" type="string">
+    The origin of the service, such as a URL or other endpoint.
+  </Property>
+  <Property name="name" type="string">
+    The name of the service.
+  </Property>
+  <Property name="service_endpoints" type="repeated KeyValuePair">
+    The set of service endpoints associated with the service (optional).
+  </Property>
+  <Property name="metadata" type="repeated KeyValuePair">
+    Additional metadata related to the Service (optional).
+  </Property>
+</Properties>

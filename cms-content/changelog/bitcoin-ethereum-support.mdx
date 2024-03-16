@@ -1,0 +1,87 @@
+---
+title: Bitcoin and Ethereum Signature Support
+date: 2023-02-27
+image: changelogs/mercury-update
+description: Sonr Changelog Feburary 2023
+---
+
+The final software upgrade for our DevNet chain has been deployed, and we're all in on transitioning to TestNet! This release builds on the "rebuilt from scratch" announced on [January 17, 2023](https://sonr-hq.productlane.io/changelog/17-01-2023).
+
+## ➡ Highlights
+
+- **IPFS Gateway** and Resolver Deployed!
+- **UCAN** Storage **Encryption**
+- Tightened **x/identity** and **Cosmos SDK Integration**
+- Standardized Type Definitions
+- **Cosmos** **Signature** **Authentication** (Next Step IBC)
+- _...and introducing **ETHAccount**, and **BTCAccount** interfaces!_
+
+## ➡ Generic Blockchain Accounts
+
+There's little dispute that we will live in a Multi-Chain future. The Sonr MPC protocol offers a Decentralized Solution to the traditional onboarding mechanism in Web3, greatly alleviating user friction points. Our latest release has begun migrating our Account Interface to allow for custom transaction signing implementations. This includes the initial development of accounts for **BitCoin** and **Ethereum.**
+
+So far, we have incorporated the following hashing functions:
+
+- **_Keccak-256_** (Ethereum)
+- **_SHA-256_** (Bitcoin)
+- **_BLAKE-3_** (Sonr Authentication)
+
+## What's Next?
+
+The primary focus of our next upgrade _(Venus)_ is to coordinate the launch of our Testnet to the general developer audience. We anticipate reaching this goal by the end of March - Early April. Outside of what's on [our roadmap,](https://roadmap.sonr.io/) we will be prioritizing these initiatives:
+
+- IBC Integration and Cosmos Hub Testnet Interactions
+- Interchain Account Support with DIDDocuments
+- Rosetta Client Implementation for Generic Accounts
+- Upgrade Motor API to support x/identity
+
+### Full Changelog
+
+**Improvements**
+
+- Build Account Abstraction for Network Fine-Tuning
+- Interface cryptotypes.pubkey over Share Config
+- Separate Vault, Auth Service for UCAN/MPC
+- Use Bitswap for PubKey Varints Encoding
+- Allow DID Service to operate as a Relaying party
+- Create protocol implementation under x/identity
+- Provide Server Context to underlying WebAuthn Service
+- Use Blockchain Keeper State to Query Accounts
+- Integrate Nebula Design System
+- Implement API Playground for Core Cosmos Modules
+- Inherit IPFS API and IPFS Node methods for Motor
+
+**Features**
+
+- Introduce OrbitDB for structured IPFS Storage
+- Create Wallet Store Interface
+- Add WalletConfig to DID Controller Interface
+- IPFS NACL Secret Box Encryption
+- Introduce OrbitDB for structured IPFS Storage
+- Create Wallet Store Interface
+- Add WalletConfig to DID Controller Interface
+- IPFS NACL Secret Box Encryption
+- Support UCAN Token Generation Over Account
+- Implement x/identity PubKey MultiCodec
+- Add Challenge and Authentication Methods
+- Add Alias/Domain Registration Methods
+- Enable Proposal Based Upgrades
+
+**Chores**
+
+- Add Method to return SignerData from AccountConfig.
+- Create Enum Types for Common Token Denominations
+- Build Conversion Ramp for Credentials
+- Utilize CosmoVisor for Upgrades
+- Backup Genesis File on Network Upgrades
+- Migrate Generation to buf.gen.yaml
+- Add Generation Script for Types
+- Integrate Upgrade Module
+- Merge Docs Repo with Blockchain Repo for Mint
+- Transfer CI/CD Pipeline from GitHub Actions to [Buddy.Works](http://buddy.works/)
+
+**Bug Fixes**
+
+- Publish IPFS Gateway to Sonr.Space API Endpoints
+- Restrict IPFS HTTP API Access to Validator Nodes
+- Publish the latest types to the registry on GitHub Actions Tag

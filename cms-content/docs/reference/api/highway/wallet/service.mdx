@@ -1,0 +1,36 @@
+---
+title: Wallets API
+description: Create native blockchain wallet accounts with MPC and store them in a secure enclave.
+collection: Identity
+api: true
+---
+
+## Wallet Account Model
+
+Accounts refer to the generated blockchain specific accounts (BTC, ETH, etc.) for a given Sonr Identity.
+
+### Properties
+
+<Properties>
+  <Property name="address" type="string">
+    The unique account address associated with the user on its specific blockchain.
+  </Property>
+  <Property name="name" type="string">
+    The user defined human-readable name associated with the account.
+  </Property>
+  <Property name="did" type="string">
+    The unique, resolvable, and cryptographically verifiable identifier. The method is by the type of Blockchain for the account.
+  </Property>
+  <Property name="coin_type" type="string">
+    The BIIP44 coin type associated with the account.
+  </Property>
+  <Property name="chain_id" type="string">
+    The chain identifier associated with the account.
+  </Property>
+  <Property name="public_key" type="string">
+    The base58 encoded public key associated with the account.
+  </Property>
+  <Property name="type" type="string">
+    Used to differentiate between various public key types, such as `secp256k1`, `ed25519`, and `sr25519`.
+  </Property>
+</Properties>

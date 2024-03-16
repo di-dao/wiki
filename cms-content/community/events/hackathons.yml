@@ -1,0 +1,37 @@
+title: Hackathon Sponsorships
+items:
+  - name: HackHarvard
+    location: Cambridge, MA
+    href: /files/whitepaper.pdf
+    description: Go through a general overview of the Sonr Protocol and its mission. It is easy to understand by non-technical readers.
+    year: "2022"
+
+  - name: CalHacks
+    location: Berkeley, CA
+    href: /files/whitepaper.pdf
+    description: Go through a general overview of the Sonr Protocol and its mission. It is easy to understand by non-technical readers.
+    year: "2022"
+
+  - name: HackMIT
+    location: Cambridge, MA
+    href: /files/whitepaper.pdf
+    description: Go through a general overview of the Sonr Protocol and its mission. It is easy to understand by non-technical readers.
+    year: "2022"
+
+  - title: HackTheNorth
+    href: /files/whitepaper.pdf
+    location: Waterloo, Canada
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2022"
+
+  - title: PennApps
+    href: /files/whitepaper.pdf
+    location: Philadelphia, PA
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2022"
+
+  - title: Miami Hack Week
+    href: /files/whitepaper.pdf
+    location: Miami, FL
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2022"

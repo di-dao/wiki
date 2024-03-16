@@ -1,0 +1,77 @@
+---
+title: Authenticating every Twitter User
+description: "The document discusses the authentication of Twitter users and compares two approaches: TBDex and Sonr. It highlights the drawbacks of TBDex, such as reliance on existing sources for verification and the potential for phishing attacks. Sonr, on the other hand, leverages the user's device as the verifiable credential issuer and offers a more secure and efficient method of authentication. The document also mentions Sonr's additional features, including verifiable Objects, real-time data Channels, and private user storage Buckets, which contribute to a comprehensive user experience. Overall, Sonr aims to rebuild the internet with a focus on user experience and elegant design."
+featured: true
+image: blog-covers/founder/auth-twitter_mxdjrx
+date: 2022-05-20
+---
+
+The internet world is at an impasse. With increasing pressure from users for freedom of speech, and unwillingness from monolithic companies to loosen their indoctrinated moral grip; humanity loses as a whole. The internet contributes to [12% of the US GDP and has grown 7x faster](https://www.iab.com/news/study-finds-internet-economy-grew-seven-times-faster/) than any sector in the past 4 years. It’s clear that something so substantial to our economy should facilitate the proper measures in order to ensure that users won’t be exploited, correct?
+
+## **Elon + Twitter**
+
+On March 27, Elon Musk first expressed his distaste for how Twitter handles user censorship and verification. To this I responded:
+
+!https://miro.medium.com/v2/resize:fit:1400/1*GTEnEYTJ9HDWGxefqRFtVg.png
+
+In the time since that tweet, Elon Musk has successfully purchased Twitter and will be taking it private. This is in hopes of alleviating the shareholder agenda as an influence over the product roadmap. In his statement after the purchase, Elon stated that “Authenticating every user” was one of his initial goals. This presents an opportunity for Elon’s ideals to be brought to fruition with the technology being built at Sonr.
+
+## **TBDex: The Tech behind Web5**
+
+!https://miro.medium.com/v2/resize:fit:1400/1*hRNthFEI8FI12px7MvOzTA.png
+
+[TBDex](https://tbdex.io/whitepaper.pdf) is a liquidity protocol being developed internally by the Square team as a means for discovering liquidity and exchanging assets when the existence of social trust is an interactable element of managing transaction risk. TBDex is most famous for recently announcing [Web5](https://bestpitchdeck.com/tbd?ref=medium) two weeks ago. TBdex incorporates a lot of essential verification specifications present in Sonr including [Decentralized Identifiers (DID)](https://www.w3.org/TR/did-core/#dfn-did-documents), Verifiable Credentials (VCs), and Identity hubs. With TBDex being the potential candidate for Twitter’s new verification procedure (due to Jack Dorsey’s involvement in both companies), it’s important to assess the drawbacks of its architecture before being set on a choice.
+
+### **1. Architecture Philosophy**
+
+The most glaring problem is the philosophy behind TBDex. The protocol is being designed with existing financial providers in mind and seems flexible enough that developers could integrate existing authentication methods and systems of records. This creates a mechanism where multiple sources dilute the actual verification property of identity. Existing sources are flat-out not designed for decentralized identity in mind and should not be incorporated into the fundamental primitive of the verification mechanism.
+
+### **2. Phishing**
+
+Under the “Risks & Considerations” section for wallets in the [TBDex white paper](https://tbdex.io/whitepaper.pdf), it states that a hacker could pose as an on-ramp and off-ramp PFI node in order to steal a user’s personally identifiable information. Pending code implementation, it is unclear as to how TBDex handles PII in their protocol but as I’ll detail later on, there are remedies in place with Sonr to prevent this risk. The bottom line is you can’t pose such a considerable risk involving secure assets to wallet developers who are a layer removed from the verification implementation.
+
+### **3. Reliance on Wallets**
+
+TBDex utilizes wallets as the means of generating verifiable credentials, which brings a myriad of problems along with it. Any system which allows users to generate accounts on a whim that are only protected by a small combination of words is not a secure, nor an effective, way to uniquely identify a human being.
+
+## **Sonr: The Internet Rebuilt for you**
+
+!https://miro.medium.com/v2/resize:fit:1400/1*EK19plVWpKXjy6BSqIDKzw.png
+
+[The Sonr Team](https://www.sonr.io/about-us) has thought about the problems presented by TBDex in great detail and has uncovered some essential truths that will help mitigate them.
+
+### **1. Wallets are features, not products**
+
+The fundamental functionality present in most wallet implementations is essentially standard. As market adoption increases, the apps that make wallet interactions an afterthought will be the ones to be able to reach mainstream product-market fit.
+
+### **2. You’ll always have an infinite number of internet accounts, but only a finite number of devices connected to the internet**
+
+Any given internet-connected user will have multiple accounts for email, social media, and other applications. However, the average person will likely replace or purchase a hardware device roughly every two years. Circling back to the drawback of wallets being the credential issuer, the same premise arises here. Is Account for Social Media A as a means for verification really different from Wallet for Blockchain B?
+
+With these two assumptions in mind, we developed the Sonr Identity standard. Sonr implements the same [Decentralized Identifier (DID)](https://docs.sonr.io/posts/architecture/adr-001) specification from W3. However, rather than identifying wallets we leverage the user’s device as the verifiable credential issuer. We utilize WebAuthN, another W3 specification, in order to generate device biometric-backed credentials that are resolvable by a user-chosen name. Wallets in our ecosystem operate as entities under the user’s top-level [DIDDocument](https://www.w3.org/TR/did-core/#dfn-did-documents), with their device being listed as a controller. Additional wallets operate simply as accounts utilized for facilitating transactions.
+
+### **Bottom Line**
+
+Based on our assumption that devices are significantly less volatile than wallets and internet accounts in terms of turnover rate. It’s safe to say that grouping device-based DIDs into a singular record, verifiable on the blockchain, would be the most efficient method of authenticating and verifying users. In our system, as the number of devices linked to a particular top-level DID increases, the security involved with the user’s transactions exponentially increases. The result is a universally credible mechanism for authenticating users.
+
+## **Going Beyond**
+
+!https://miro.medium.com/v2/resize:fit:1400/1*zKxVYiu3fVePHu2RyhNaow.jpeg
+
+Moving past verification of users, the Sonr network provides a suite of tools for developers that create a comprehensive user experience. At its core, this includes verifiable Objects, real-time data Channels, and private user storage Buckets.
+
+### **Objects**
+
+Consider how apps today pass data between each other, mostly via APIs. Right now the only way a developer can determine what kind of data is returned, is by having the API Documentation right in front of them. [Sonr Objects](https://docs.sonr.io/posts/architecture/adr-002) bridge this gap. Objects are the most basic type in the Sonr stack and are completely compliant with Protocol Lab’s [IPLD spec](https://ipld.io/docs/data-model/kinds/). With Objects utilizing the IPLD spec it allows for us to provide many different upgrades including a self-contained descriptive model that uniquely identifies any hash-based data structure, protocol independent resolutions, backward compatibility, and unique namespaces for apps built in Sonr.
+
+### **Channels**
+
+If Objects are the base unit for how data is defined in Sonr, [Channels](https://docs.sonr.io/posts/architecture/adr-004) would be the base unit for how communication between peers functions. Currently on the internet if you want to interact with other peers you will have to use a Client-Server model. A client requests a server to join a Group and the server pretty much handles the rest. Our team realized that every single person in the world essentially has a server in their pocket. Channels leverage the network with this in mind, by making all inbound/outbound communication encrypted and secured at the point of the user’s device.
+
+### **Buckets**
+
+On Sonr, there is no such thing as application-facing user data. All user data is stored on an encrypted [bucket](https://docs.sonr.io/posts/architecture/adr-003) located on the Interplanetary File System (IPFS). This data never passes unencrypted through the network, resulting in a completely secure and private experience for end-users. Peers delegate access to their secure content to other applications and users on the Sonr Network.
+
+## **Closing Notes**
+
+Pursuing the goal of authenticating every internet user is a hard task with many ways to fall short. Numerous solutions are being built in the industry, with many incorporating similar core specifications such as Decentralized Identifiers (DID), Verifiable Credentials (VC), and wallet mechanisms. However, Sonr is uniquely positioned based on our holistic approach to be orientated around user experience and elegant design. Our team is currently hard at work implementing additional Architectural Decision Records (ADR) that make the complete vision for the Sonr network possible. We encourage everyone to join our community — together, we can rebuild the internet for you.

@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "f99287804edf4a5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "91f27e13d9800ac3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56531775aa673fb7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97278dc2bc05e186",
+    "type": "split",
+    "children": [
+      {
+        "id": "a75c3796dcd1c3b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53e918cdb76948a1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "605195caf419a2e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "90982d97db9605b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51f1e1fda175841d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7450fbdb51e0563",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20ae3ab96bfd3694",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "baad835b957462c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "efe2bed44531f5fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba7ee3f3acd973dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "605195caf419a2e8",
+  "lastOpenFiles": [
+    "mint.json",
+    "static/swagger/sonrhq/sonr/service/module/v1/state_query.swagger.json",
+    "static/swagger/sonrhq/sonr/service/module/v1/state.swagger.json",
+    "static/swagger/sonrhq/sonr/service/module/v1/module.swagger.json",
+    "static/swagger/sonrhq/sonr/identity/module/v1/state_query.swagger.json",
+    "static/swagger/sonrhq/sonr/identity/module/v1/state.swagger.json",
+    "static/swagger/sonrhq/sonr/identity/module/v1/module.swagger.json",
+    "static/swagger/sonrhq/sonr/service/module/v1",
+    "static/swagger/sonrhq/sonr/service/v1/types.swagger.json",
+    "static/swagger/sonrhq/sonr/service/v1/tx.swagger.json",
+    "static/swagger/sonrhq/sonr/service/v1/query.swagger.json",
+    "static/images/diagrams/holistic-architecture.svg",
+    "static/images/quick-start.svg",
+    "static/images/logo.svg",
+    "static/images/logo-dark.svg",
+    "static/images/favicon.png",
+    "static/images/background.png",
+    "wiki/compliance/incorporation-structures/2.-token-issuer-entity-token-spv.md",
+    "wiki/compliance/de-fi-price-discovery/liquidity-bootstrapping-pool-lbp.md",
+    "wiki/compliance/incorporation-structures/3.-network-foundation-structures.md",
+    "wiki/compliance/us-security-laws/sufficiently-decentralized-cosmos-chain.md",
+    "wiki/compliance/us-security-laws/qualification-and-timeline.md",
+    "wiki/compliance/us-security-laws/marketing-around-secondary-market-creation.md",
+    "wiki/compliance/us-security-laws/effects-of-pricing-the-token.md",
+    "wiki/compliance/us-security-laws/distribution-of-voting-power-and-on-chain-control.md",
+    "wiki/compliance/us-security-laws/decentralized-protocol-launch.md",
+    "wiki/compliance/us-security-laws/decentralized-decision-making-through-governance.md",
+    "wiki/compliance/traditional-token-sales/security-token-offering-sto.md",
+    "wiki/compliance/traditional-token-sales/initial-exchange-offering-ieo.md",
+    "wiki/compliance/traditional-token-sales/initial-dex-offering-ido.md",
+    "wiki/compliance/traditional-token-sales/initial-coin-offering-ico.md",
+    "wiki/compliance/incorporation-structures/1.-developer-company-for-usa-projects.md",
+    "wiki/compliance/de-fi-price-discovery/liquidity-bootstrap-auctions-lbas.md",
+    "wiki/compliance/de-fi-price-discovery/initial-farm-offering-ifo-lockdrop.md",
+    "wiki/compliance/de-fi-price-discovery/fair-launch.md",
+    "wiki/strategy/Why have a Token_.md",
+    "wiki/strategy/Why Sonr uses Cosmos-SDK.md",
+    "wiki/strategy/Token Value Accural.md",
+    "wiki/strategy/Staking Rewards Model.md",
+    "wiki/strategy/Network Governance.md",
+    "wiki/strategy/Mitigating Potential Risks.md",
+    "wiki/strategy/Inherent Network Effects.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

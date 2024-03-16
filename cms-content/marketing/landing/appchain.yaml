@@ -1,0 +1,24 @@
+id: appchain
+index: 3
+title: A Cosmos AppChain for Identity
+subtitle: Sonr maximizes network effects of Blockchain-based economies by embracing the Inter-Blockchain Communication Protocol (IBC).
+features:
+  - index: 0
+    title: Native ETH & BTC Support
+  - index: 1
+    title: IPFS Data Storage
+  - index: 2
+    title: 99% More Energy Effiecient
+  - index: 3
+    title: Rust Smart Contracts
+  - index: 4
+    title: 5s Block Finality
+  - index: 5
+    title: $40B of Staked Assets in Cosmos
+cards:
+  - index: 0
+    title: Inter-Blockchain Communication
+    subtitle: Sonr employs IBC to eliminate the need for cross-chain bridges. Transactions over IBC are directly broadcasted using on-chain configured relayers.
+  - index: 1
+    title: Delegated Proof of Stake
+    subtitle: Leverage Sonr's role-based capabilities to create verified and prvoisioned experiences. Zero-knowledge accumulators enable gated access, without disclosing any information.

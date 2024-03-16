@@ -1,0 +1,9 @@
+id: cta
+index: 7
+title: Building an Identity system for the Next 100 years
+primaryButton:
+  label: Get Started
+  url: /docs
+secondaryButton:
+  label: Join the Community
+  url: https://discord.gg/4QXEJQY

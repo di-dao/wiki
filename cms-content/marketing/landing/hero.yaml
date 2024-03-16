@@ -1,0 +1,14 @@
+id: hero
+index: 0
+title: Sonr is rebuilding Digital Identity with Self Custody and Privacy at its genesis
+subtitle: We're creating the Global Standard for Decentralized Identity. Authenticate users with PassKeys, Issue Crypto Wallets, Build Payment flows, Send Encrypted Messages - all on a single platform.
+primaryButton:
+  label: Get Started
+  url: /docs
+secondaryButton:
+  label: Star on Github
+  url: https://github.com/sonrhq/sonr
+breadcrumbLink:
+  label: Sonr Explained in 2 Minutes
+  type: modal
+  url: /blog/engineering/what-are-dids

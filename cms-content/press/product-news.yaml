@@ -1,0 +1,25 @@
+title: Product News
+items:
+  - title: Sonr marked safe from Fireblocks MPC exploit
+    href: https://snr.im/z6XS5in
+    description: Fireblocks, an enterprise-focused crypto infrastructure firm, has disclosed a set of vulnerabilities collectively referred to as “BitForge”, impacting a variety of popular crypto wallets that use multi-party computation (MPC) technology.
+    publisher: CoinDesk
+    date: 2023-08-09
+
+  - title: Sonr is a sponsor at HackMIT 2022
+    href: https://snr.im/f97gV1J
+    description: HackMIT is a weekend-long event where thousands of students from around the world come together to work on cool software and/or hardware projects.
+    publisher: HackMIT
+    date: 2022-10-01
+
+  - title: Sonr sponsors Canada's Largest Hackathon
+    href: https://snr.im/PAeXxnW
+    description: Sonr is looking for developers at HackTheNorth to create data Schemas, and store data that leverages them. We care about both the quantity and quality of the Schemas, and associated data.
+    publisher: HackTheNorth
+    date: 2022-09-17
+
+  - title: Meet the Sonr Team at PennAppsXXIII
+    href: https://snr.im/e5IApkT
+    description: Founded in the fall of 2009, PennApps was the nation's first student-run college hackathon. It has spurred a revolution in the way engineering students develop and showcase their skills, spawning an entire "league" of hackathons across the nation.
+    publisher: PennApps
+    date: 2022-09-02

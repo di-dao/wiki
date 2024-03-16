@@ -1,0 +1,40 @@
+id: mission
+index: 1
+title: Focused on experience, interoperability, and compliance. Backed by the most trusted investors in Web3
+partners:
+  - alt: W3C
+    src: /images/logos/w3c.svg
+    url: https://www.w3.org/
+  - alt: Fido
+    src: /images/logos/fido.png
+    url: https://fidoalliance.org/
+  - alt: IBC Protocol
+    src: /images/logos/ibc.svg
+    url: https://ibcprotocol.org/
+  - alt: DIF
+    src: /images/logos/dif.svg
+    url: https://identity.foundation/
+  - alt: IPFS
+    src: /images/logos/ipfs.png
+    url: https://ipfs.io/
+  - alt: Matrix Protocol
+    src: /images/logos/matrix.svg
+    url: https://matrix.org/
+  - alt: Shima Capital
+    src: /images/logos/shima.svg
+    url: https://www.shimacapital.com/
+  - alt: Torch VC
+    src: /images/logos/torch.png
+    url: https://www.torchcapital.vc/
+  - alt: Synergis Capital
+    src: /images/logos/synergis.png
+    url: https://synergiscap.xyz/
+  - alt: Outlier Ventures
+    src: /images/logos/ov.svg
+    url: https://outlierventures.io/
+  - alt: Backend Capital
+    src: /images/logos/backend.svg
+    url: https://www.backend.capital/
+  - alt: Builder Capital
+    src: /images/logos/builder.png
+    url: https://www.buildercapital.io/

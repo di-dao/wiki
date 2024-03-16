@@ -1,0 +1,8 @@
+---
+title: Multi-Party Computation
+description: Reducing the risk of seed-phrase exploits by using "every-sign" refresh keys with MPC.
+collection: Identity
+---
+
+## Multi-Party Computation
+In MPC, a secret value (in this case, a user's private key) is divided into a number of shares. These keyshares are such that any subset of them can be used to reconstruct the secret, but no single share reveals any information about the secret itself. This ensures that even if a malicious party gains access to a share, they can't derive any meaningful information about the private key.

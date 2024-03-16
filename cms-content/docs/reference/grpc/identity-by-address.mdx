@@ -1,0 +1,52 @@
+---
+title: Get Identity by Owner
+description: Re-usable components built using Radix UI and Tailwind CSS.
+collection: Identity
+---
+
+
+# Get Identity by Owner
+
+This endpoint allows you to retrieve a DID Document by the owner listed on the Blockchain.
+
+<Row>
+  <Col>
+
+
+  </Col>
+  <Col sticky>
+
+<CodeGroup title="Request" tag="GET" label="/id/owner/:owner">
+
+```bash
+curl -G https://core.build/id/owner/idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh
+```
+
+```js
+import ApiClient from '@sonrhq/ts-client'
+
+const client = new ApiClient(token)
+
+await client.did.get(idx1abc123)
+```
+
+</CodeGroup>
+
+```json
+{
+  "id": "did:sonr:abc123",
+  "publicKey": [
+    {
+      "id": "did:sonr:abc123#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "..."
+    }
+  ],
+  "alsoKnownAs": ["example.snr"]
+  // ...
+}
+```
+
+</Col>
+</Row>
+---

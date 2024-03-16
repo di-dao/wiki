@@ -1,0 +1,40 @@
+papers:
+  - title: Whitepaper
+    href: /files/whitepaper.pdf
+    description: Go through a general overview of the Sonr Protocol and its mission. It is easy to understand by non-technical readers.
+    features:
+      - Platform Overview
+      - Use Cases
+
+  - title: Technical Paper
+    href: /files/whitepaper.pdf
+    disabled: true
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    features:
+      - Engineering Architecture
+      - Diagrams and Schematics
+
+  - title: Token Allocation
+    href: /files/whitepaper.pdf
+    disabled: true
+    description: Find out how SNR tokens are being distributed across the network. Including airdrops, community pools, and more.
+    features:
+      - Community Airdrops
+      - Token Vesting
+
+  - title: Governance Overview
+    href: /files/whitepaper.pdf
+    disabled: true
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    features:
+      - Role of Participants
+      - Stakeholder Incentives
+
+  - title: Economic Paper
+    href: /files/whitepaper.pdf
+    disabled: true
+    description: Learn all about how Sonrs economic model allows developers to capture the value their dapps create.
+    features:
+      - Token Value Flow
+      - Incentive Structure
+

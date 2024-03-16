@@ -1,0 +1,62 @@
+---
+title: "Sonr's MPC Algorithm gets 180x more efficient"
+date: 2023-01-17
+image: changelogs/identity-refactor
+description: Sonr Changelog January 2023
+---
+
+We are excited to announce the (soft launch) of our latest module for our Cosmos Blockchain. Sonr is a self-sovereign data platform that enables developers to build user-centric, privacy-preserving applications, all secured by a Cosmos-powered blockchain.
+
+Sonr utilizes DID documents, Webauthn, IPFS, and multi-party computation, to provide a fully decentralized mechanism for identity and crypto asset management. This allows developers to create user-friendly and secure applications while ensuring users maintain control of their data and assets.
+
+The x/identity module results from the culmination of multiple existing elements in the Sonr component stack. By leveraging the default P2P nature, we were able to optimize our "Decentralized-Wallet-As-A-Service" significantly.
+
+- **180% Faster** - \*Execution Time dropped on all tests from roughly 40s to >2s **(huge news!!)\***
+- **150M+ Encryption Parameters** - _Secure IPFS Storage_
+- **Much better Web Support** - _Libp2p over gRPC, HTTP, and WebTransport_
+
+## Features
+
+- Implement x/Identity Module Query Methods
+- Implement x/Identity Keeper gRPC Message Service
+- Support CGGMP Algorithm
+- Build Host Interface for MPC Online Network
+- Create Motor Interface for Interacting with Remote P2P Peer
+- Design and Implement Next.js Login/Register Panel for WebAuthn
+- Design and Implement Flutter Dashboard View for Account Management
+- Integrate Libp2p JS to Interact with Vault Methods over gRPC
+- Enable Pubsub and IPLD on Highway Node
+- Build Offline Implementation of Point Network for MPC
+
+## Improvements
+
+- Add Docs API Playground for Core Cosmos Modules
+- Inherit IPFS API and IPFS Shell methods for Motor
+- Utilize Kubo as Library for Sonr Highway Protocol
+- Integrate Libp2p Pubsub for Broadcast Communication
+- Build gRPC Server with Libp2p Host for Vault System
+- Utilize GPT-3 for Generating Docs Glossary Terms
+- Create Vercel Serverless Functions to Store Docs
+- Enable Namespaced Routing Discovery for All Nodes
+
+## Chores
+
+- Utilize CosmoVisor for Upgrades
+- Merge Docs Repo with Blockchain Repo for Mint
+- Remove Deprecated Protocols
+- Remove Pseudo Network Interface
+- Upgrade Module to v0.46.x
+- Remove Isolated Process Generation
+- Build Protocol Initialization Sequence
+- Migrate Node Interface to Utilize IPFS CoreAPI for Embedded Node
+- Add x/Identity API Playground to Docs
+- Add Ecosystem to Links in Docs
+- Deploy Private IPFS Cluster
+
+## Bug fixes
+
+- Fix DID Document Resolution Tests
+- Fix DID Specific Query Methods
+- Transfer CI/CD Pipeline from GitHub Actions to Buddy.Works
+- Remove Deprecated Modules
+- Remove IPFS Shell Reference for Add/Get with Node

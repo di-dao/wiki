@@ -1,0 +1,45 @@
+---
+title: Mailbox API
+description: Send/Receive encrypted messaged either W2W or S2W.
+collection: Storage
+api: true
+---
+
+
+Messages are what conversations are made of in Protocol — they are the basic building blocks of your conversations with your Protocol contacts. On this page, we'll dive into the different message endpoints you can use to manage messages programmatically. We'll look at how to query, send, update, and delete messages.
+
+## The message model
+
+The message model contains all the information about the messages and attachments you send to your contacts and groups, including how your contacts have reacted to them.
+
+### Properties
+
+<Properties>
+  <Property name="id" type="string">
+    Unique identifier for the message.
+  </Property>
+  <Property name="conversation_id" type="string">
+    Unique identifier for the conversation the message belongs to.
+  </Property>
+  <Property name="contact" type="object">
+    The contact object for the contact who sent the message.
+  </Property>
+  <Property name="message" type="string">
+    The message content.
+  </Property>
+  <Property name="reactions" type="array">
+    An array of reaction objects associated with the message.
+  </Property>
+  <Property name="attachments" type="array">
+    An array of attachment objects associated with the message.
+  </Property>
+  <Property name="read_at" type="timestamp">
+    Timestamp of when the message was read.
+  </Property>
+  <Property name="created_at" type="timestamp">
+    Timestamp of when the message was created.
+  </Property>
+  <Property name="updated_at" type="timestamp">
+    Timestamp of when the message was last updated.
+  </Property>
+</Properties>

@@ -1,0 +1,43 @@
+---
+title: Persisting Identity with DIDDocuments
+description: The representation of a Users identity as it is stored on the Sonr blockchain.
+collection: Identity
+---
+
+
+## The DID Document Model
+
+The DID document model contains all the essential information about an identity, such as its public keys, authentication methods, and service endpoints. It provides a means to prove control over the decentralized identifier (DID) associated with the document.
+
+### Properties
+
+<Properties>
+  <Property name="id" type="string">
+    The identifier for the DID subject.
+  </Property>
+  <Property name="controller" type="repeated string">
+    The entity/entities controlling the DID subject (optional).
+  </Property>
+  <Property name="authentication" type="repeated string">
+    The set of authentication methods associated with the DID subject
+    (optional).
+  </Property>
+  <Property name="assertion_method" type="repeated string">
+    The set of assertion methods associated with the DID subject (optional).
+  </Property>
+  <Property name="capability_invocation" type="repeated string">
+    The set of capability invocation methods associated with the DID subject
+    (optional).
+  </Property>
+  <Property name="capability_delegation" type="repeated string">
+    The set of capability delegation methods associated with the DID subject
+    (optional).
+  </Property>
+  <Property name="key_agreement" type="repeated string">
+    The set of key agreement methods associated with the DID subject (optional).
+  </Property>
+  <Property name="also_known_as" type="repeated string">
+    The set of identifiers for other personas or identities related to the DID
+    subject (optional).
+  </Property>
+</Properties>

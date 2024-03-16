@@ -1,0 +1,47 @@
+---
+title: "How Sonr made account registration 180x faster with Multi-Party Computation (MPC)"
+description: "Multi-party computation (MPC) is a cryptographic technique that enables secure and collaborative computation without revealing private inputs. Sonr has made significant advancements in optimizing the efficiency and speed of their continuous-time MPC algorithm, leveraging peer-to-peer networking and sequential parallelism. These improvements open up possibilities for real-time applications while maintaining security and scalability. Sonr's contributions to the field of MPC demonstrate their commitment to driving innovation in decentralized identity solutions."
+featured: true
+image: blog-covers/engineering/integrating-mpc
+date: 2023-06-28
+---
+
+The field of blockchain technology has seen significant advancements in recent years, and one area that has garnered attention is multi-party computation (MPC). MPC is a cryptographic technique that allows multiple parties to compute a result collaboratively without revealing their private inputs. The rise in popularity of blockchain-based financial solutions, such as decentralized finance (DeFi), has increased the demand for MPC technology to safeguard funds in crypto wallets. In this article, we will explore the concept of multi-party computation in detail, its applications, and the recent advancements made by Sonr in optimizing the efficiency and speed of their MPC algorithm.
+
+## Understanding Multi-Party Computation
+
+Multi-party computation is a cryptographic technique that enables multiple parties, each holding fragments of private data, to collaborate in computing a specific result using MPC-based algorithms. The goal is to compute the result without revealing any information about the individual inputs or any other secret information related to the process. MPC achieves this by splitting the data across multiple participants, ensuring that no single participant can reconstruct or leak the secret information.
+
+In MPC, the data held by each participant does not represent the secret if simply combined together. Instead, these pieces of information serve as inputs to participate in the desired computation. The protocol used in MPC must fulfill two specific requirements: it should prevent dishonest participants from forcing honest parties to disclose their confidential information or influence the outcome of the result, and it should ensure that no one can deduce each party's secret information from the execution of the protocol.
+
+The concept of MPC was first introduced by Chinese computer scientist Andrew Yao in the 1980s. He developed the two-party computation and later extended it to multi-party computation. Since then, MPC has undergone significant advancements and has found applications in various domains, including secure voting, privacy-preserving data analysis, and secure auctions.
+
+## Advancements in Continuous-Time MPC
+
+Continuous-time model predictive control (MPC) is an area of research that aims to solve MPC problems directly without explicit time-discretization. Sonr, an IBC-enabled blockchain for decentralized identity, has made significant advancements in optimizing the efficiency and speed of their continuous-time MPC algorithm. Their algorithm addresses the challenges of a linear time-invariant system, quadratic cost functions, and convex path constraints.
+
+The key innovation in Sonr's algorithm is the finitely parameterized admissible space of control trajectories. By solving the optimal control problem (OCP) at every time instant in a tractable manner, without explicit time-discretization, Sonr achieves efficient continuous-time MPC. The resulting OCP is a convex semi-infinite program (SIP), and Sonr utilizes recently developed results to obtain an optimal solution.
+
+To demonstrate the effectiveness of their algorithm, Sonr has conducted numerical illustrations on benchmark models. These illustrations showcase the improved efficiency and speed of their continuous-time MPC algorithm, highlighting its potential for real-world applications.
+
+## Leveraging Peer-to-Peer Networking for Speed Optimizations
+
+Sonr has leveraged peer-to-peer networking to optimize the speed of their MPC algorithm. By utilizing a network of validator nodes and client SDKs, Sonr achieves sequential parallelism and concurrency, resulting in significant speed improvements. The validator nodes collaborate in computing the result, while the client SDKs enable efficient communication and data exchange between the parties.
+
+This peer-to-peer networking approach allows for efficient distribution of computational tasks and parallel execution, leading to faster computation times. Sonr's MPC algorithm now achieves execution times for signing messages under 1 second, and wallet creation is virtually instant. These speed optimizations enhance the user experience and enable real-time interactions with the blockchain network.
+
+## Security and Scalability Considerations
+
+While optimizing for speed and efficiency, Sonr remains committed to maintaining the highest standards of security and scalability. The use of cryptographic techniques in MPC ensures the privacy and confidentiality of the participants' inputs. Sonr's MPC algorithm follows best practices in cryptography, employing encryption and multi-party computation to protect sensitive information.
+
+In terms of scalability, Sonr's peer-to-peer networking approach enables the network to handle a large number of participants and computational tasks. The use of client SDKs and validator nodes allows for parallel processing and efficient distribution of computation, ensuring that the network can scale as the demand for MPC applications grows.
+
+## Future Developments and Applications
+
+Sonr's advancements in optimizing the efficiency and speed of their MPC algorithm pave the way for a wide range of applications in the blockchain ecosystem. The improved execution times open up possibilities for real-time transaction processing, secure voting systems, and privacy-preserving data analysis.
+
+Additionally, Sonr's continuous-time MPC algorithm can be extended to other domains requiring real-time decision-making and collaboration. Industries such as finance, healthcare, and supply chain management could benefit from the secure and efficient computation enabled by Sonr's MPC technology.
+
+## Conclusion
+
+Multi-party computation (MPC) is a powerful cryptographic technique that enables secure and collaborative computation without revealing private inputs. Sonr's optimization efforts in continuous-time MPC have resulted in significant speed improvements, leveraging peer-to-peer networking and sequential parallelism. The advancements made by Sonr open up new possibilities for real-time applications, while maintaining the highest standards of security and scalability. As the blockchain ecosystem continues to evolve, MPC technology will play a crucial role in ensuring privacy, security, and efficient computation. Sonr's contributions to the field of MPC demonstrate their commitment to pushing the boundaries of blockchain infrastructure and driving innovation in decentralized identity solutions.

@@ -1,0 +1,31 @@
+title: Conference Attendances
+items:
+  - title: Proof of Talk
+    href: /files/whitepaper.pdf
+    location: Paris, France
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2023"
+
+  - title: Futurist Conference
+    href: /files/whitepaper.pdf
+    location: Toronto, Canada
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2022"
+
+  - name: Consensus by CoinDesk
+    href: /files/whitepaper.pdf
+    location: Austin, TX
+    description: Go through a general overview of the Sonr Protocol and its mission. It is easy to understand by non-technical readers.
+    year: "2023, 2022"
+
+  - title: Crypto Bahamas
+    href: /files/whitepaper.pdf
+    location: Nassau, Bahamas
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2022"
+
+  - title: NFT.NYC
+    href: /files/whitepaper.pdf
+    location: New York, NY
+    description: Dive deeper into the technology behind Sonr and the unique modules that enable sustainable decentralized identity.
+    year: "2021"

@@ -1,0 +1,20 @@
+id: features
+index: 2
+title: Introducing the Internet's Drivers License
+subtitle: Engineered from the start to be encrypted, self-custody, and private by default. Sonr converges practical user experience with Post-Quantum grade security.
+features:
+  - index: 0
+    title: Scaleable Digital Identity
+    subtitle: Create privacy preserved connections with any Identifier and your Application resources.
+  - index: 1
+    title: Passkey Authorization
+    subtitle: Authorize users to access your Application resources with a single click powered by their Passkey.
+  - index: 2
+    title: MPC Backed Wallets
+    subtitle: Seamless crypto onboarding experience without the need for Seed phrases or Private Keys.
+  - index: 3
+    title: Deliberitely Designed for Decentralization
+    subtitle: Sonr is built on the latest Decentralized Identity standards and is designed to be interoperable with all Networking paradigms.
+  - index: 4
+    title: Open Source
+    subtitle: Sonr is open source and powered by its own utility orientated Token economics. Our client libraries are designed to be easy to use and integrate.

@@ -1,0 +1,40 @@
+---
+title: List all Service Records
+description: Re-usable components built using Radix UI and Tailwind CSS.
+collection: Services
+---
+
+This endpoint allows you to retrieve a DID Document by the owner listed on the Blockchain.
+
+<Row>
+  <Col sticky>
+
+<CodeGroup title="Request" tag="GET" label="/id/owner/:owner">
+
+```bash
+curl -G https://core.build/service/localhost
+```
+
+```js
+import ApiClient from '@sonrhq/ts-client'
+
+const client = new ApiClient(origin)
+await client.service.get(localhost)
+```
+
+</CodeGroup>
+
+```json
+{
+	"service": {
+		"id": "localhost",
+		"controller": "did:web:localhost",
+		"type": "LinkedDomains",
+		"origin": "localhost",
+		"name": "Localhost"
+	},
+	"success": true
+}
+```
+</Col>
+</Row>

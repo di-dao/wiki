@@ -1,0 +1,54 @@
+---
+title: Get Identity by Alias
+description: Re-usable components built using Radix UI and Tailwind CSS.
+collection: Identity
+---
+
+# Get Identity by Alias
+
+This endpoint allows you to retrieve a DID Document by its associated alias.
+
+<Row>
+  <Col sticky>
+
+<CodeGroup title="Request" tag="GET" label="/id/alias/:alias">
+
+```bash
+curl -G https://core.build/id/alias/tester
+```
+
+```js
+import ApiClient from '@sonrhq/ts-client'
+
+const client = new ApiClient(token)
+
+await client.did.get(example.snr)
+```
+
+</CodeGroup>
+
+```json
+{
+	"did": "did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh",
+	"document": {
+		"context": ["https://www.w3.org/ns/did/v1", "https://docs.sonr.io/identity/1.0"],
+		"id": "did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh",
+		"verification_method": [{
+			"id": "did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh",
+			"type": "secp256k1",
+			"blockchain_account_id": "idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh"
+		}, {
+			"id": "did:key:pQECAyYgASFYIH9kXUXwrUV6hjA-VrGQbiepUYG4OncD_edj21ZJnMYeIlggWsBBaUtzmU2yowHR7VRIgUVy37MZVQvXpuW9jgYeZyk#3H0xKvGiCP0df5mK1NDbfQLmgQCGV3W3Uzhh6a1_4Fw",
+			"type": "Ed25519VerificationKey2018",
+			"controller": "did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh",
+			"public_key_multibase": "pQECAyYgASFYIH9kXUXwrUV6hjA-VrGQbiepUYG4OncD_edj21ZJnMYeIlggWsBBaUtzmU2yowHR7VRIgUVy37MZVQvXpuW9jgYeZyk"
+		}],
+		"authentication": ["did:key:pQECAyYgASFYIH9kXUXwrUV6hjA-VrGQbiepUYG4OncD_edj21ZJnMYeIlggWsBBaUtzmU2yowHR7VRIgUVy37MZVQvXpuW9jgYeZyk#3H0xKvGiCP0df5mK1NDbfQLmgQCGV3W3Uzhh6a1_4Fw"],
+		"assertion_method": ["did:sonr:idx1swlq72exr74zd7ghsp55965cg6pwsveplq68vh"],
+		"also_known_as": ["tester"]
+	}
+}
+```
+
+</Col>
+</Row>
