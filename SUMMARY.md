@@ -37,7 +37,7 @@
 
 * [🧊 Running Nodes](guides/running-nodes/README.md)
   * [Run in Docker](guides/running-nodes/run-in-docker.md)
-  * [Run in Linux VM](guides/running-nodes/run-in-linux-vm.md)
+  * [Deploy to Linux VM](guides/running-nodes/deploy-to-linux-vm.md)
   * [Join the Testnet](guides/running-nodes/join-the-testnet.md)
 * [🏗️ Building Apps](guides/building-apps/README.md)
   * [CosmWasm Smart Contracts](guides/building-apps/cosmwasm-smart-contracts.md)
@@ -49,13 +49,13 @@
 
 ## Reference
 
-* [Blockchain API](reference/blockchain-api/README.md)
-  * [x/bank](reference/blockchain-api/x-bank/README.md)
-    * [🔵 Get Accounts](reference/blockchain-api/x-bank/get-accounts.md)
-    * [🔵 Get Balances](reference/blockchain-api/x-bank/get-balances.md)
-  * [x/identity](reference/blockchain-api/x-identity.md)
-  * [x/gov](reference/blockchain-api/x-gov.md)
-  * [x/service](reference/blockchain-api/x-service.md)
-  * [x/staking](reference/blockchain-api/x-staking.md)
-* [Highway API](reference/highway-api.md)
+* [OpenAPI Reference](reference/openapi-reference/README.md)
+  * [x/bank](reference/openapi-reference/x-bank/README.md)
+    * [🔵 Get Accounts](reference/openapi-reference/x-bank/get-accounts.md)
+    * [🔵 Get Balances](reference/openapi-reference/x-bank/get-balances.md)
+  * [x/identity](reference/openapi-reference/x-identity.md)
+  * [x/gov](reference/openapi-reference/x-gov.md)
+  * [x/service](reference/openapi-reference/x-service.md)
+  * [x/staking](reference/openapi-reference/x-staking.md)
+* [Research Proposals](reference/research-proposals.md)
 * [Protobuf Definitions](reference/protobuf-definitions.md)
