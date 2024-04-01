@@ -1,7 +1,5 @@
 # Responsibilities of Validators
 
-## The Critical Role of Validators in Sonr's DPoS Consensus
-
 As a pioneering force in the blockchain industry, Sonr is committed to maintaining a robust, secure, and efficient network. Central to this mission is our Delegated Proof of Stake (DPoS) consensus mechanism, which relies on the crucial role played by validator nodes. In this post, we'll explore the responsibilities of these validators and highlight their significance in the Sonr ecosystem.
 
 ### Ensuring Network Security and Integrity
