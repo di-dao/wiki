@@ -32,8 +32,3 @@
   * [Driving Network Effects](constitution/building-a-network/driving-network-effects.md)
   * [Role of the Foundation](constitution/building-a-network/role-of-the-foundation.md)
   * [Validator Incentive System](constitution/building-a-network/validator-incentive-system.md)
-* [My Digital Citizenship](constitution/my-digital-citizenship/README.md)
-  * ["Delegate for Authenticity"](constitution/my-digital-citizenship/delegate-for-authenticity.md)
-  * [Voting Participation](constitution/my-digital-citizenship/voting-participation.md)
-  * [Algorithmic Airdrop Rewards](constitution/my-digital-citizenship/algorithmic-airdrop-rewards.md)
-  * [Community Initiatives](constitution/my-digital-citizenship/community-initiatives.md)
