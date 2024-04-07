@@ -7,20 +7,6 @@
   * [Glossary](basics/what-is-sonr/glossary.md)
 * [▶️ Getting Started](basics/getting-started.md)
 
-## Guides
-
-* [🧊 Running Nodes](guides/running-nodes/README.md)
-  * [Run in Docker](guides/running-nodes/run-in-docker.md)
-  * [Deploy to Linux VM](guides/running-nodes/deploy-to-linux-vm.md)
-  * [Join the Testnet](guides/running-nodes/join-the-testnet.md)
-* [🏗️ Building Apps](guides/building-apps/README.md)
-  * [CosmWasm Smart Contracts](guides/building-apps/cosmwasm-smart-contracts.md)
-  * [Integrating with Client SDKs](guides/building-apps/integrating-with-client-sdks.md)
-* [💸 Network Participation](guides/network-participation/README.md)
-  * [Voting on Proposals](guides/network-participation/voting-on-proposals.md)
-  * [Delegating your Stake](guides/network-participation/delegating-your-stake.md)
-  * [Software Upgrades](guides/network-participation/software-upgrades.md)
-
 ## Foundations
 
 * [🏛️ Constitution](foundations/constitution/README.md)
@@ -65,7 +51,23 @@
   * [6. User Authentication and Wallet Management](foundations/whitepaper/6.-user-authentication-and-wallet-management.md)
   * [7. Asset Management and Value Transfer](foundations/whitepaper/7.-asset-management-and-value-transfer.md)
 
+## Guides
+
+* [🧊 Running Nodes](guides/running-nodes/README.md)
+  * [Run in Docker](guides/running-nodes/run-in-docker.md)
+  * [Deploy to Linux VM](guides/running-nodes/deploy-to-linux-vm.md)
+  * [Join the Testnet](guides/running-nodes/join-the-testnet.md)
+* [🏗️ Building Apps](guides/building-apps/README.md)
+  * [CosmWasm Smart Contracts](guides/building-apps/cosmwasm-smart-contracts.md)
+  * [Integrating with Client SDKs](guides/building-apps/integrating-with-client-sdks.md)
+* [💸 Network Participation](guides/network-participation/README.md)
+  * [Voting on Proposals](guides/network-participation/voting-on-proposals.md)
+  * [Delegating your Stake](guides/network-participation/delegating-your-stake.md)
+  * [Software Upgrades](guides/network-participation/software-upgrades.md)
+
 ## Reference
 
+* [🖥️ API Console](https://sonr.io)
 * [💛 Network Status](https://sonr.live)
 * [🏗️ Protobuf Definitions](https://buf.build/didao/sonr)
+* [📚 Wiki Home](https://sonr.notion.site)
