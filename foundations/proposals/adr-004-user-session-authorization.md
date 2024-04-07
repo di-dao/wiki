@@ -5,7 +5,7 @@ description: >-
   while providing a seamless and user-friendly exp
 ---
 
-# ADR-004: User Session Authorization
+# ✔️ ADR-004: User Session Authorization
 
 ## Context
 

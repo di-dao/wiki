@@ -4,7 +4,7 @@ description: >-
   on-chain and resolution of private user identifiers off-chain.
 ---
 
-# ADR-002: Decentralized Identity
+# ✔️ ADR-002: Decentralized Identity
 
 ## Context
 
@@ -22,17 +22,17 @@ Sonr aims to set a new standard in digital identity by aligning with W3C specifi
 
 #### 1. Passkey Registration on _Verified Domains_
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Service-Proxied Registration using on-chain Record</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Service-Proxied Registration using on-chain Record</p></figcaption></figure>
 
 #### 2. Persisting Keyshares over _Decentralized Storage Provider_
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Restricting Access to provisioned users using IPFS Encrypted Vaults</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Restricting Access to provisioned users using IPFS Encrypted Vaults</p></figcaption></figure>
 
 ***
 
 ### Keyshare Mapping
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>2 Party DKLS MPC</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>2 Party DKLS MPC</p></figcaption></figure>
 
 | Term           | Definition                                                                                  |
 | -------------- | ------------------------------------------------------------------------------------------- |

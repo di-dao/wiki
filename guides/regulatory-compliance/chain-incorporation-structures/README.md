@@ -25,7 +25,7 @@ Several potential legal structures are available for L1 Cosmos chains, each with
 {% hint style="info" %}
 * Cayman Island Foundations are moderately easy and cost-effective to set up, managed by a Board of Directors, offering high privacy and flexibility but lower transparency and regulatory compliance.&#x20;
 * Swiss Foundations, on the other hand, are known for their stability and strong legal framework but can be time-consuming and costly to establish, with a centralized management through a Foundation Council and high regulatory compliance.
-* [_**Wyoming DUNAs are a newly announced entity**_](https://www.wyoleg.gov/2024/Introduced/SF0050.pdf)_**,**_ which offer Legal DAO capabilities for USA based projects.
+* [_**Wyoming DUNAs are a newly announced entity**_](understanding-the-wyoming-duna-for-cosmos-founders.md)_**,**_ which offer Legal DAO capabilities for USA based projects.
 {% endhint %}
 
 When selecting a foundation management model for an L1 Cosmos chain, it is essential to consider factors such as the project's goals, desired level of decentralization, community involvement, regulatory requirements, and jurisdiction. Each model has its strengths and weaknesses, and the choice ultimately depends on the specific needs and priorities of the project.

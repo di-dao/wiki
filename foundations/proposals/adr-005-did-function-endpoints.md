@@ -5,7 +5,7 @@ description: >-
   platform.
 ---
 
-# ADR-005: DID Function Endpoints
+# ❔ ADR-005: DID Function Endpoints
 
 ## Context
 

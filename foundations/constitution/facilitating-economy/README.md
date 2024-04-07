@@ -6,8 +6,6 @@ description: >-
 
 # Facilitating Economy
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a data-mention href="hands-of-trade.md">hands-of-trade.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="responsibilities-of-validators.md">responsibilities-of-validators.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="token-value-generation.md">token-value-generation.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="methods-of-payment.md">methods-of-payment.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="genesis-allocation.md">genesis-allocation.md</a></td><td></td></tr></tbody></table>
-
 Sonr is building a robust and dynamic token economy that facilitates the exchange of value, incentivizes participation, and drives the growth of its decentralized identity and data management ecosystem. At the heart of this economy is the SNR token, which serves multiple critical functions. Let's explore the key aspects of Sonr's token ecosystem.
 
 ### Genesis Allocation

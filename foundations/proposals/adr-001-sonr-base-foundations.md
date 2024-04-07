@@ -4,7 +4,7 @@ description: >-
   documents, Webauthn, and IPFS.
 ---
 
-# ADR-001: Sonr Base Foundations
+# ✔️ ADR-001: Sonr Base Foundations
 
 ## Abstract
 
@@ -12,7 +12,7 @@ description: >-
 
 Sonr is a Cosmos powered blockchain which is powered by a TenderMint validation mechanism. The default consensus for TenderMint is DPoS and works with our current ABCI implementation for Transaction Verification.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Sonr Holistic Authentication Feature Set</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Sonr Holistic Authentication Feature Set</p></figcaption></figure>
 
 ***
 

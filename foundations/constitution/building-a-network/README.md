@@ -7,8 +7,6 @@ description: >-
 
 # Building a Network
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a data-mention href="organizing-a-movement.md">organizing-a-movement.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="capturing-critical-mass.md">capturing-critical-mass.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="driving-network-effects.md">driving-network-effects.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="role-of-the-foundation.md">role-of-the-foundation.md</a></td><td></td></tr><tr><td></td><td><a data-mention href="validator-incentive-system.md">validator-incentive-system.md</a></td><td></td></tr></tbody></table>
-
 Sonr is on a mission to revolutionize decentralized identity and data management in the Web3 era. To achieve this goal, Sonr is implementing a multi-faceted strategy that focuses on capturing critical mass, driving network effects, organizing a movement, establishing the role of the foundation, and creating a robust validator incentive system. Let's take a closer look at each of these key aspects.
 
 ### Capturing Critical Mass
