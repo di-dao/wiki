@@ -5,7 +5,7 @@
 * [☀️ Introduction](README.md)
   * [What is Sonr?](foundations/introduction/what-is-sonr.md)
   * [Our Mission and Values](foundations/introduction/our-mission-and-values.md)
-  * [Roadmap & Goals](foundations/introduction/roadmap-and-goals.md)
+  * [Getting Involved](foundations/introduction/getting-involved.md)
 * [🏛️ Our Constitution](foundations/our-constitution/README.md)
   * [Digital Identity 2.0](foundations/our-constitution/digital-identity-2.0/README.md)
     * [A Brief Story of Identity](foundations/our-constitution/digital-identity-2.0/a-brief-story-of-identity.md)

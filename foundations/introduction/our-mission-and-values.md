@@ -28,7 +28,3 @@ With the huge media attention on the crypto industry right now, there will be a 
 ### Feel Stupid, everyday
 
 This industry is changing constantly with new protocols and tokens popping up every other day. We encourage you to constantly ask questions and scour the internet or your peers for solutions. _The wise man knows when he doesn't know, and the dumb man pretends he does know._
-
-***
-
-##
