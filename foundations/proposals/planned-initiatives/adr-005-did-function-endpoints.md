@@ -27,17 +27,6 @@ The proposed solution aims to enable the deployment and invocation of user-defin
 
 ***
 
-## Definitions
-
-*   **`URL Parameters`**
-
-    Parameters to functions will be nameless and of type `string`. the provided data will be deserialized to the described types and given to functions as what they are specified to be in the delceration upon creation.
-*   `**User Function**`
-
-    A User `Defined Function` is represented by a single `binary` file which is assumed to be executable, and corresponding `callback Urls` associated with said executable file. Said functions are not permitted to return data to the caller directly, but rather the outer managment of the defined function will provide data to the given `urls` as `base64 encoded` representations as to not permit users to modify the system state of any `highway` node directly.
-
-***
-
 ## Sequence Methods
 
 ### 1. Calling a Function

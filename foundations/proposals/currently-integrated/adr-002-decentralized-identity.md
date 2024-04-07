@@ -18,53 +18,6 @@ Sonr aims to set a new standard in digital identity by aligning with W3C specifi
 
 ***
 
-## Definitions
-
-<details>
-
-<summary><code>Decentralized Identifier (DID)</code></summary>
-
-A globally unique identifier that enables verifiable, self-sovereign digital identities. DIDs are fully under the control of the DID subject, independent from any centralized registry, identity provider, or certificate authority.
-
-See [W3C Decentralized Identifiers Spec](https://www.w3.org/TR/did-core/) for more information.\
-
-
-</details>
-
-<details>
-
-<summary><code>DID Method</code></summary>
-
-Specifies the syntax and procedures for specific DID schemes. It defines how to read, write and resolve DIDs for a particular blockchain or storage network.
-
-</details>
-
-<details>
-
-<summary><code>DID Document</code></summary>
-
-A JSON-LD document that describes the DID, including its public keys, authentication protocols, and service endpoints for interaction.
-
-</details>
-
-<details>
-
-<summary><code>DID Controller</code></summary>
-
-An entity that has the capability to make changes to a DID Document, essentially having control over the DID.
-
-</details>
-
-<details>
-
-<summary><code>DID Resolver</code></summary>
-
-A system function that takes a DID as input and produces a DID Document as output, essentially translating the identifier into a form that the system can process.
-
-</details>
-
-***
-
 ## Sequence Methods
 
 #### 1. Passkey Registration on _Verified Domains_

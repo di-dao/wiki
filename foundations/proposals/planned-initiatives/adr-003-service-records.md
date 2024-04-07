@@ -64,10 +64,6 @@ Upon successful authentication a New record of the event is stored on chain with
 
 ***
 
-## Implementation
-
-***
-
 ## Status
 
 This proposal is **under development** by the core Sonr Team.

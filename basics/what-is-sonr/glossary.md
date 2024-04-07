@@ -66,9 +66,33 @@ Decentralized Identifier, a globally unique and persistent identifier for a pers
 
 <details>
 
+<summary><code>DID Controller</code></summary>
+
+An entity that has the capability to make changes to a DID Document, essentially having control over the DID.
+
+</details>
+
+<details>
+
 <summary><strong><code>DID Document</code></strong></summary>
 
 A JSON-LD document containing metadata associated with a DID, such as public keys and service endpoints.
+
+</details>
+
+<details>
+
+<summary><code>DID Method</code></summary>
+
+Specifies the syntax and procedures for specific DID schemes. It defines how to read, write and resolve DIDs for a particular blockchain or storage network.
+
+</details>
+
+<details>
+
+<summary><code>DID Resolver</code></summary>
+
+A system function that takes a DID as input and produces a DID Document as output, essentially translating the identifier into a form that the system can process.
 
 </details>
 
@@ -110,6 +134,16 @@ A module in the Cosmos SDK that enables an account on one blockchain to control 
 
 </details>
 
+## J
+
+<details>
+
+<summary><strong><code>JWT</code></strong></summary>
+
+
+
+</details>
+
 ## K
 
 <details>
@@ -142,9 +176,33 @@ A cryptographic protocol that allows parties to jointly compute a function over 
 
 <details>
 
+<summary><strong><code>Passkeys</code></strong></summary>
+
+Secure, anonymous WebAuthn-based credentials for privacy-preserving, user-friendly authentication.
+
+</details>
+
+<details>
+
 <summary><strong><code>Pinecone</code></strong></summary>
 
 A P2P routing layer in the Matrix Protocol that enables efficient message routing between embedded clients.
+
+</details>
+
+<details>
+
+<summary><code>PublicKeyAssertion</code></summary>
+
+**PublicKeyAssertion** in WebAuthn is cryptographic proof of private key possession to verify identity without passwords.
+
+</details>
+
+<details>
+
+<summary><code>PublicKeyAttestation</code></summary>
+
+PublicKeyAttestation in WebAuthn verifies a credential's authenticity via an attestation statement from the authenticator.
 
 </details>
 

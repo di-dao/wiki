@@ -25,27 +25,6 @@ Basic profile information can be stored as encrypted data. For authentication, t
 
 ***
 
-## Definitions
-
-*   `JSON Web Token (JWT)`
-
-    A JSON Web Token (JWT) is a compact, URL-safe means of representing claims between two parties. It is commonly used for authentication and authorization purposes in web applications. A JWT consists of three parts: a header, a payload, and a signature, which are encoded and digitally signed to ensure integrity and authenticity of the token.
-*   `PassKeys`
-
-    **PassKeys** are secure and anonymous credentials generated during user registration for decentralized identity systems. These credentials, based on WebAuthn technology, are linked to the user's account while preserving their privacy. PassKeys enable seamless authentication by auto-filling the credentials during login, providing a user-friendly experience while ensuring the confidentiality and integrity of user information.
-*   `PublicKeyAttestation`
-
-    **PublicKeyAttestation** in the context of WebAuthn refers to the process of verifying the authenticity and integrity of a public key credential during registration. It involves generating an attestation statement by the authenticator (e.g., hardware security key) to prove that it possesses a private key corresponding to the public key being registered. This attestation statement is used to ensure that the public key being registered is genuine and has not been tampered with, enhancing the security and trustworthiness of the authentication process.
-*   `PublicKeyAssertion`
-
-    **PublicKeyAssertion** is a term used in WebAuthn, which refers to a cryptographic proof provided by a user during the authentication process. It is a mechanism that allows the user to prove their possession of a private key corresponding to a registered public key. This assertion is used to verify the user's identity and grant access to requested resources or services without the need for traditional passwords.
-*   `WebAuthn`
-
-    **WebAuthn** is a web standard that enables strong and passwordless authentication. It allows users to authenticate to online services using public-key cryptography and biometric factors like fingerprints or facial recognition. By eliminating the need for traditional passwords, **WebAuthn** provides a more secure and convenient authentication experience while protecting user privacy.
-*   `Zero-Knowledge Accumulator`
-
-    A **zero-knowledge accumulator** is a cryptographic primitive that allows for the efficient verification of membership in a set without revealing the individual elements of the set. It enables a prover to demonstrate knowledge of elements in a set without disclosing those elements. This provides a way to prove possession or knowledge of certain data without revealing any specific details about that data, ensuring privacy and confidentiality.
-
 ## Sequence Methods
 
 ### 1. Registering New Users

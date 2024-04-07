@@ -14,42 +14,6 @@ Sonr is a Cosmos powered blockchain which is powered by a TenderMint validation 
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Sonr Holistic Authentication Feature Set</p></figcaption></figure>
 
-## Definitions
-
-<details>
-
-<summary><code>Delegated Proof of Stake (DPoS)</code></summary>
-
-Delegated Proof of Stake (DPoS) is a consensus mechanism used in blockchain networks where token holders can vote for delegates to validate transactions and secure the network. It allows for faster transaction confirmations and energy efficiency compared to traditional Proof of Work (PoW) systems. This is the underlying mechanism Sonr uses in order to solve the BFT problem.
-
-**Further Reading:** [Delegated Proof of Stake by BitShares](https://how.bitshares.works/en/master/technology/dpos.html)
-
-</details>
-
-<details>
-
-<summary><code>Multi-party Computation</code></summary>
-
-The multi-party computation feature aims to enhance the security and privacy of decentralized identity systems. It allows for secure computation on private user identifiers without exposing them to any single party.
-
-</details>
-
-<details>
-
-<summary><code>Inter-Blockchain Communication (IBC)</code></summary>
-
-The inter-blockchain communication or IBC, enables the exchange of information and data between different blockchain networks. When using the Cosmos SDK, this functionality is offered out of the box. Resulting in interoperability and seamless integration between different IBC Protocol enabled blockchains.
-
-</details>
-
-<details>
-
-<summary><code>Matrix Protocol</code></summary>
-
-The Matrix Protocol is a decentralized communication protocol that enables secure and interoperable messaging across different platforms and networks. It provides a framework for real-time communication and collaboration, allowing users to send messages, share files, and make voice and video calls.
-
-</details>
-
 ***
 
 ## Protocol Economics
@@ -113,6 +77,6 @@ Establishing fundamental value via governance incorporates seven elements of eco
 
 ### Governance Rollout Timeline
 
-<table data-view="cards" data-full-width="false"><thead><tr><th>Stage</th><th>Objective</th><th>Actions</th></tr></thead><tbody><tr><td><strong>1) Establish Community</strong></td><td>Build a robust community of engaged token holders.</td><td><ol><li>Incentivize stake-holding and participation.</li><li>Partner with DeFi projects and blockchain services.</li></ol></td></tr><tr><td><strong>2) Polling System</strong></td><td>Initiate a preliminary system for community feedback.</td><td><ol><li>Implement a token-weighted polling system.</li><li>Enable community submissions and voting on improvements.</li></ol></td></tr><tr><td><strong>3) On-Chain Execution</strong></td><td>Launch an executable code-based governance framework.</td><td><ol><li>Introduce majority rule voting.</li><li>Analyze and incorporate community proposals after assessment.</li></ol></td></tr><tr><td><strong>4) Subsidies and Rewards</strong></td><td>Promote proposals for grants and rewards allocation.</td><td><ol><li>Allow community proposals for grants.</li><li>Use community voting to select grant recipients.</li></ol></td></tr><tr><td><strong>5) Technical Upgrades</strong></td><td>Maintain and enhance platform security and functionality.</td><td><ol><li>Conduct security and economic audits.</li><li>Update subsidies, rewards, and accept technical proposals.</li></ol></td></tr><tr><td><em><strong>Governed Maintenance</strong></em></td><td>Ensure regulatory c<em>ompliance with</em> <a data-footnote-ref href="#user-content-fn-1"><em>Wyoming DUNA</em></a><em>.</em></td><td><ol><li>Maintain polling-based system in Motor Nebula Widget.</li><li>Focus on pricing, security, and bug fixes in proposals.</li></ol></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>Stage</th><th>Objective</th><th>Actions</th></tr></thead><tbody><tr><td><strong>1) Establish Community</strong></td><td>Build a robust community of engaged token holders.</td><td><ol><li>Incentivize stake-holding and participation.</li><li>Partner with DeFi projects and blockchain services.</li></ol></td></tr><tr><td><strong>2) Polling System</strong></td><td>Initiate a preliminary system for community feedback.</td><td><ol><li>Implement a token-weighted polling system.</li><li>Enable community submissions and voting on improvements.</li></ol></td></tr><tr><td><strong>3) On-Chain Execution</strong></td><td>Launch an executable code-based governance framework.</td><td><ol><li>Introduce majority rule voting.</li><li>Analyze and incorporate community proposals after assessment.</li></ol></td></tr><tr><td><strong>4) Subsidies and Rewards</strong></td><td>Promote proposals for grants and rewards allocation.</td><td><ol><li>Allow community proposals for grants.</li><li>Use community voting to select grant recipients.</li></ol></td></tr><tr><td><strong>5) Technical Upgrades</strong></td><td>Maintain and enhance platform security and functionality.</td><td><ol><li>Conduct security and economic audits.</li><li>Update subsidies, rewards, and accept technical proposals.</li></ol></td></tr><tr><td><em><strong>Governed Maintenance</strong></em></td><td>Ensure regulatory c<em>ompliance with</em> <a data-footnote-ref href="#user-content-fn-1"><em>Wyoming DUNA</em></a><em>.</em></td><td><ol><li>Maintain polling-based system in Motor Nebula Widget.</li><li>Focus on pricing, security, and bug fixes in proposals.</li></ol></td></tr></tbody></table>
 
 [^1]: The Wyoming DAO Supplement (DUNA) is a legal framework that allows Decentralized Autonomous Organizations (DAOs) to operate as limited liability companies (LLCs) in the state of Wyoming. It goes into effect [**July 2024**](https://www.wyoleg.gov/2024/Introduced/SF0050.pdf).
