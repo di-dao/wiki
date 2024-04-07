@@ -5,7 +5,7 @@ description: >-
   digital wallet.
 ---
 
-# Our Mission and Values
+# ⚡ Mission & Values
 
 ## 🔭 Vision
 

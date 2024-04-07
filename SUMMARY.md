@@ -2,10 +2,9 @@
 
 ## Basics
 
-* [☀️ What is Sonr?](README.md)
-  * [Our Mission](basics/what-is-sonr/our-mission.md)
-  * [Glossary](basics/what-is-sonr/glossary.md)
-* [▶️ Getting Started](basics/getting-started.md)
+* [🆔 What is Sonr?](README.md)
+* [⚡ Mission & Values](basics/mission-and-values.md)
+* [📚 Glossary](basics/glossary.md)
 
 ## Foundations
 
@@ -53,10 +52,10 @@
 
 ## Guides
 
-* [🧊 Running Nodes](guides/running-nodes/README.md)
-  * [Run in Docker](guides/running-nodes/run-in-docker.md)
-  * [Deploy to Linux VM](guides/running-nodes/deploy-to-linux-vm.md)
-  * [Join the Testnet](guides/running-nodes/join-the-testnet.md)
+* [▶️ Getting Started](guides/getting-started/README.md)
+  * [Run in Docker](guides/getting-started/run-in-docker.md)
+  * [Deploy to Linux VM](guides/getting-started/deploy-to-linux-vm.md)
+  * [Join the Testnet](guides/getting-started/join-the-testnet.md)
 * [🏗️ Building Apps](guides/building-apps/README.md)
   * [CosmWasm Smart Contracts](guides/building-apps/cosmwasm-smart-contracts.md)
   * [Integrating with Client SDKs](guides/building-apps/integrating-with-client-sdks.md)
@@ -64,10 +63,35 @@
   * [Voting on Proposals](guides/network-participation/voting-on-proposals.md)
   * [Delegating your Stake](guides/network-participation/delegating-your-stake.md)
   * [Software Upgrades](guides/network-participation/software-upgrades.md)
+* [⚒️ Regulatory Compliance](guides/regulatory-compliance/README.md)
+  * [Chain Incorporation Structures](guides/regulatory-compliance/chain-incorporation-structures/README.md)
+    * [Token Launch Mechanism](guides/regulatory-compliance/chain-incorporation-structures/token-launch-mechanism/README.md)
+      * [Initial Coin Offering (ICO)](guides/regulatory-compliance/chain-incorporation-structures/token-launch-mechanism/initial-coin-offering-ico.md)
+      * [Security Token Offering (STO)](guides/regulatory-compliance/chain-incorporation-structures/token-launch-mechanism/security-token-offering-sto.md)
+      * [Initial Exchange Offering (IEO)](guides/regulatory-compliance/chain-incorporation-structures/token-launch-mechanism/initial-exchange-offering-ieo.md)
+      * [Initial DEX Offering (IDO)](guides/regulatory-compliance/chain-incorporation-structures/token-launch-mechanism/initial-dex-offering-ido.md)
+    * [Token Price Discovery](guides/regulatory-compliance/chain-incorporation-structures/token-price-discovery/README.md)
+      * [Initial Farm Offering (IFO)](guides/regulatory-compliance/chain-incorporation-structures/token-price-discovery/initial-farm-offering-ifo.md)
+      * [Liquidity Bootstrapping Pool (LBP)](guides/regulatory-compliance/chain-incorporation-structures/token-price-discovery/liquidity-bootstrapping-pool-lbp.md)
+      * [Liquidity Bootstrap Auctions (LBAs)](guides/regulatory-compliance/chain-incorporation-structures/token-price-discovery/liquidity-bootstrap-auctions-lbas.md)
+      * [Traditional Fair Launch](guides/regulatory-compliance/chain-incorporation-structures/token-price-discovery/traditional-fair-launch.md)
+  * [Decentralization & Securities Law](guides/regulatory-compliance/decentralization-and-securities-law/README.md)
+    * [Launching a Decentralized Cosmos Chain](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/README.md)
+      * [1. Effects of Pricing the Token](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/1.-effects-of-pricing-the-token.md)
+      * [2. Decentralized Protocol Launch](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/2.-decentralized-protocol-launch.md)
+      * [3. Decentralized Governance based Decisions](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/3.-decentralized-governance-based-decisions.md)
+      * [4. Distribution of Chain Voting Control](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/4.-distribution-of-chain-voting-control.md)
+      * [5. Advertising around Secondary Market Creation](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/5.-advertising-around-secondary-market-creation.md)
+      * [6. Post Launch: Further Decentralization & Maintenance](guides/regulatory-compliance/decentralization-and-securities-law/launching-a-decentralized-cosmos-chain/6.-post-launch-further-decentralization-and-maintenance.md)
+    * [History of Tokens & Securities](guides/regulatory-compliance/decentralization-and-securities-law/history-of-tokens-and-securities.md)
+    * [Understanding the Wyoming DUNA for Cosmos Founders](guides/regulatory-compliance/decentralization-and-securities-law/understanding-the-wyoming-duna-for-cosmos-founders.md)
+  * [Validator Bootstrapping FAQ](guides/regulatory-compliance/validator-bootstrapping-faq/README.md)
+    * [1. Identifying Potential Validators](guides/regulatory-compliance/validator-bootstrapping-faq/1.-identifying-potential-validators.md)
+    * [2. Validator Engagement and Rewards](guides/regulatory-compliance/validator-bootstrapping-faq/2.-validator-engagement-and-rewards.md)
+    * [3. Communicating With Your Validators](guides/regulatory-compliance/validator-bootstrapping-faq/3.-communicating-with-your-validators.md)
 
 ## Reference
 
 * [🖥️ API Console](https://sonr.io)
 * [💛 Network Status](https://sonr.live)
 * [🏗️ Protobuf Definitions](https://buf.build/didao/sonr)
-* [📚 Wiki Home](https://sonr.notion.site)

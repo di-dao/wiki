@@ -34,7 +34,7 @@ Upon successful authentication a New record of the event is stored on chain with
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonr WebAuthn/JWT Authorization Handshake</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonr WebAuthn/JWT Authorization Handshake</p></figcaption></figure>
 
 </div>
 

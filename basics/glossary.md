@@ -2,7 +2,7 @@
 description: A holistic list of key relevant terms to the Sonr Network Architecture.
 ---
 
-# Glossary
+# 📚 Glossary
 
 ## C
 
