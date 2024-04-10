@@ -4,6 +4,16 @@ description: A holistic list of key relevant terms to the Sonr Network Architect
 
 # 📚 Glossary
 
+## A
+
+<details>
+
+<summary><strong><code>Accumulator (Zero Knowledge Proofs)</code></strong></summary>
+
+A cryptographic primitive that allows for compact representation of a set of elements, enabling membership proofs without revealing the elements.
+
+</details>
+
 ## C
 
 <details>
@@ -120,17 +130,17 @@ A library that allows you to access modern browser features directly from HTML, 
 
 <details>
 
-<summary><strong><code>Interblockchain Communication (IBC)</code></strong></summary>
+<summary><strong><code>Interchain Accounts</code></strong></summary>
 
-A protocol that enables reliable, ordered, and authenticated communication between heterogeneous blockchains.
+A module in the Cosmos SDK that enables an account on one blockchain to control an account on another blockchain.
 
 </details>
 
 <details>
 
-<summary><strong><code>Interchain Accounts</code></strong></summary>
+<summary><strong><code>Interblockchain Communication (IBC)</code></strong></summary>
 
-A module in the Cosmos SDK that enables an account on one blockchain to control an account on another blockchain.
+A protocol that enables reliable, ordered, and authenticated communication between heterogeneous blockchains.
 
 </details>
 
@@ -282,7 +292,7 @@ A web standard for authenticating users using public-key cryptography instead of
 
 <details>
 
-<summary><strong><code>Witness</code></strong></summary>
+<summary><strong><code>Witness (Zero Knowledge Proofs)</code></strong></summary>
 
 In a zero-knowledge accumulator, a value that allows a prover to demonstrate membership of an element without revealing the element itself.
 
@@ -292,15 +302,7 @@ In a zero-knowledge accumulator, a value that allows a prover to demonstrate mem
 
 <details>
 
-<summary><strong><code>Zero-Knowledge Accumulator</code></strong></summary>
-
-A cryptographic primitive that allows for compact representation of a set of elements, enabling membership proofs without revealing the elements.
-
-</details>
-
-<details>
-
-<summary><strong><code>Zero-Knowledge Proofs</code></strong></summary>
+<summary><strong><code>Zero Knowledge Proofs</code></strong></summary>
 
 A cryptographic method that allows one party to prove to another that a statement is true without revealing any additional information.
 
